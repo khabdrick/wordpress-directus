@@ -24,7 +24,7 @@ def upload_to_directus(image_url):
             temp_image_path, "rb"
         )  # Open the temporary file to include in the request
     }
-    directus_upload_url = "https://mvhd-blog.directus.app/files"
+    directus_upload_url = "https://your.directus.app/files"
 
     print(f"Uploading image to Directus: {directus_upload_url}")
     response = requests.post(directus_upload_url, files=files, headers=headers)
@@ -35,7 +35,7 @@ def upload_to_directus(image_url):
 
     # Construct the Directus image URL from the response
 
-    directus_image_url = f"https://mvhd-blog.directus.app/assets/{directus_image_id}"
+    directus_image_url = f"https://your.directus.app/assets/{directus_image_id}"
 
     print(f"Directus Image URL: {directus_image_url}")
 

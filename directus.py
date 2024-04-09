@@ -33,8 +33,8 @@ def import_posts_to_directus(json_file_path, directus_url, api_key):
 
 # Example usage
 json_file_path = "modified_WP-data.json"
-directus_url = "https://mvhd-blog.directus.app"
-api_key = "bqqTDS73DBsxPDUC9c0m5-xULZPAqeL3"
+directus_url = "https://your.directus.app"
+api_key = ""
 
 # Uncomment the line below to run the function with your actual Directus URL and API key
 import_posts_to_directus(json_file_path, directus_url, api_key)
