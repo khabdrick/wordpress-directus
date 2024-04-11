@@ -14,7 +14,7 @@ If you already have Python installed you only need to install dotenv which we wi
 ```
 pip install python-dotenv
 ```
-After installations create the environment variables in `.env` file and populate them with your Directus details.
+After installations create the environment variables in the `.env` file and populate them with your Directus details.
 ```
 # .env
 DIRECTRUS_URL=https://your.directus.app
