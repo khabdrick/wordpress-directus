@@ -22,7 +22,7 @@ def import_posts_to_directus(json_file_path, directus_url, api_key):
 
         # POST the data to the Directus API
         response = requests.post(
-            f"{directus_url}/items/article", headers=headers, json=payload
+            f"{directus_url}/items/Posts", headers=headers, json=payload
         )
 
         if response.status_code in [200, 201]:
